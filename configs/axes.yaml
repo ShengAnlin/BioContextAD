@@ -1,0 +1,84 @@
+# AD Pathological Axes — NIA-AA ATNIV Framework
+# Used by BioRouter for query classification
+
+axes:
+  A:
+    name: Amyloid
+    description: "Amyloid-beta pathology markers"
+    biomarkers:
+      - "Aβ42"
+      - "Aβ40"
+      - "Aβ42/Aβ40 ratio"
+      - "amyloid PET (AV-45, PIB)"
+      - "CSF Aβ42"
+      - "plasma Aβ42/Aβ40"
+    keywords:
+      - amyloid, plaque, senile plaque, Aβ, beta-amyloid
+      - BACE1, APP, PSEN1, PSEN2
+
+  T:
+    name: Tau
+    description: "Tau pathology and neurofibrillary tangles"
+    biomarkers:
+      - "p-tau181"
+      - "p-tau217"
+      - "p-tau231"
+      - "total tau (t-tau)"
+      - "tau PET (AV-1451, MK-6240)"
+      - "CSF p-tau/t-tau"
+    keywords:
+      - tau, phospho-tau, neurofibrillary tangle, NFT, hyperphosphorylation
+      - MAPT, kinase
+
+  N:
+    name: Neurodegeneration
+    description: "Markers of neuronal injury and neurodegeneration"
+    biomarkers:
+      - "NfL (neurofilament light chain)"
+      - "GFAP"
+      - "neurogranin"
+      - "SNAP-25"
+      - "MRI hippocampal atrophy"
+      - "FDG-PET hypometabolism"
+    keywords:
+      - neurodegeneration, atrophy, synaptic dysfunction, axonal injury
+      - hippocampus, entorhinal cortex, cortical thinning
+
+  I:
+    name: Inflammation
+    description: "Neuroinflammation and immune response"
+    biomarkers:
+      - "TREM2"
+      - "YKL-40 (CHI3L1)"
+      - "sTREM2"
+      - "IL-6, TNF-α"
+      - "microglia activation (TSPO-PET)"
+    keywords:
+      - neuroinflammation, microglia, astrocyte, reactive gliosis
+      - complement, cytokine, immune, TREM2
+
+  V:
+    name: Vascular
+    description: "Cerebrovascular contribution to AD"
+    biomarkers:
+      - "white matter hyperintensities (WMH)"
+      - "cerebral blood flow (CBF)"
+      - "blood-brain barrier (BBB) integrity"
+      - "VCAM-1"
+    keywords:
+      - vascular, cerebrovascular, small vessel disease, lacune
+      - blood-brain barrier, endothelial, perfusion
+
+  OTHER:
+    name: Other / Risk Factors
+    description: "Risk factors, cognitive scales, genetics, and general questions"
+    biomarkers:
+      - "APOE ε4"
+      - "MMSE"
+      - "MoCA"
+      - "CDR"
+      - "ADAS-Cog"
+    keywords:
+      - APOE, genetics, risk factor, cognitive assessment
+      - MCI, mild cognitive impairment, preclinical AD
+      - lifestyle, education, screening, diagnosis criteria

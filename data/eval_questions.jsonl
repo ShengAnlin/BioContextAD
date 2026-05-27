@@ -1,0 +1,30 @@
+{"id": "q001", "question": "What is the diagnostic significance of the Aβ42/Aβ40 ratio in plasma-based AD screening?", "label": "A"}
+{"id": "q002", "question": "How does CSF Aβ42 concentration change in preclinical Alzheimer's disease before symptom onset?", "label": "A"}
+{"id": "q003", "question": "What is the sensitivity of amyloid PET (AV-45) for detecting amyloid pathology in MCI patients?", "label": "A"}
+{"id": "q004", "question": "How does soluble Aβ oligomer burden correlate with synaptic dysfunction in AD?", "label": "A"}
+{"id": "q005", "question": "What are the current plasma Aβ assay platforms and their performance characteristics?", "label": "A"}
+{"id": "q006", "question": "How does p-tau217 compare to p-tau181 as a predictive biomarker for tau pathology progression?", "label": "T"}
+{"id": "q007", "question": "What is the temporal trajectory of CSF p-tau231 changes relative to amyloid accumulation?", "label": "T"}
+{"id": "q008", "question": "How do neurofibrillary tangles spread across Braak stages in AD?", "label": "T"}
+{"id": "q009", "question": "What is the correlation between plasma p-tau181 and tau PET standardized uptake value ratio?", "label": "T"}
+{"id": "q010", "question": "Can phosphorylated tau species differentiate AD from other tauopathies?", "label": "T"}
+{"id": "q011", "question": "What is the prognostic value of plasma NfL for predicting cognitive decline rate in AD?", "label": "N"}
+{"id": "q012", "question": "How does hippocampal atrophy rate measured by MRI correlate with clinical progression in AD?", "label": "N"}
+{"id": "q013", "question": "What does FDG-PET hypometabolism in the posterior cingulate cortex indicate in early AD?", "label": "N"}
+{"id": "q014", "question": "How does plasma GFAP change across the AD continuum from preclinical to dementia stages?", "label": "N"}
+{"id": "q015", "question": "What is the relationship between synaptic protein loss (SNAP-25, neurogranin) and cognitive impairment?", "label": "N"}
+{"id": "q016", "question": "What is the role of TREM2 in microglial activation and amyloid clearance in AD?", "label": "I"}
+{"id": "q017", "question": "How does soluble TREM2 (sTREM2) in CSF reflect microglial activity in AD pathology?", "label": "I"}
+{"id": "q018", "question": "What evidence links YKL-40 (CHI3L1) to astrocyte reactivity in Alzheimer's disease?", "label": "I"}
+{"id": "q019", "question": "How do complement pathways contribute to synapse elimination in early AD neuroinflammation?", "label": "I"}
+{"id": "q020", "question": "What single-cell transcriptomic signatures characterize disease-associated microglia (DAM) in AD?", "label": "I"}
+{"id": "q021", "question": "How do white matter hyperintensities on FLAIR MRI relate to AD risk and cognitive decline?", "label": "V"}
+{"id": "q022", "question": "What is the contribution of blood-brain barrier breakdown to amyloid accumulation in AD?", "label": "V"}
+{"id": "q023", "question": "How does reduced cerebral blood flow measured by ASL-MRI precede cognitive symptoms in AD?", "label": "V"}
+{"id": "q024", "question": "What vascular endothelial biomarkers (VCAM-1, ICAM-1) are elevated in AD patients?", "label": "V"}
+{"id": "q025", "question": "How does small vessel cerebrovascular disease interact with amyloid and tau pathology in mixed dementia?", "label": "V"}
+{"id": "q026", "question": "What is the effect of APOE ε4 on amyloid clearance and AD risk stratification?", "label": "OTHER"}
+{"id": "q027", "question": "What are the current NIA-AA diagnostic criteria for preclinical, prodromal, and clinical AD?", "label": "OTHER"}
+{"id": "q028", "question": "How does MoCA compare to MMSE for detecting mild cognitive impairment in clinical screening?", "label": "OTHER"}
+{"id": "q029", "question": "What lifestyle risk factors (sleep, exercise, diet) are associated with reduced AD incidence?", "label": "OTHER"}
+{"id": "q030", "question": "What is the recommended combination of biomarkers for a cost-effective population-level AD screening protocol?", "label": "OTHER"}
