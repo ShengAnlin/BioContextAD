@@ -1,0 +1,72 @@
+# Ablation Study Configuration
+# Defines the five experimental conditions for BioContextAD evaluation
+
+conditions:
+  full_pipeline:
+    name: "Full Pipeline"
+    description: "BioRouter + Biomarker-guided RAG + Abstention module"
+    components:
+      router: true
+      biomarker_rag: true
+      abstention: true
+      evidence_graph: true
+    baseline: false
+
+  no_router:
+    name: "No Router"
+    description: "Vanilla RAG without axis routing — query sent directly to retrieval"
+    components:
+      router: false
+      biomarker_rag: true
+      abstention: true
+      evidence_graph: false
+    baseline: false
+
+  no_biomarker:
+    name: "No Biomarker Anchoring"
+    description: "Standard RAG without biomarker-specific query rewriting"
+    components:
+      router: true
+      biomarker_rag: false
+      abstention: true
+      evidence_graph: false
+    baseline: false
+
+  no_abstention:
+    name: "No Abstention"
+    description: "Full pipeline without safety/uncertainty gate"
+    components:
+      router: true
+      biomarker_rag: true
+      abstention: false
+      evidence_graph: false
+    baseline: false
+
+  vanilla_rag:
+    name: "Vanilla RAG Baseline"
+    description: "Standard dense retrieval + generation, no biomarker-specific components"
+    components:
+      router: false
+      biomarker_rag: false
+      abstention: false
+      evidence_graph: false
+    baseline: true
+
+# Evaluation metrics per condition
+metrics:
+  primary:
+    - macro_f1          # BioRouter classification
+    - evidence_f1       # Evidence relevance ranking
+    - abstention_f1     # Abstention precision/recall
+    - agreement_kappa   # Multi-teacher Fleiss' kappa
+  secondary:
+    - accuracy
+    - per_class_f1
+    - confusion_matrix
+
+# Sample size targets (Phase 1 dry-run)
+sample_targets:
+  e1_router: 30
+  e2_abstention: 20
+  e3_evidence: 30
+  e4_teacher: 20
