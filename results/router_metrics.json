@@ -1,0 +1,44 @@
+{
+  "router_fast": {
+    "n": 60,
+    "macro_f1": 1.0,
+    "accuracy": 1.0,
+    "parse_fail": 0,
+    "per_axis_f1": {
+      "A": 1.0,
+      "T": 1.0,
+      "N": 1.0,
+      "I": 1.0,
+      "V": 1.0,
+      "OTHER": 1.0
+    }
+  },
+  "teacher_medical": {
+    "n": 60,
+    "macro_f1": 1.0,
+    "accuracy": 1.0,
+    "parse_fail": 0,
+    "per_axis_f1": {
+      "A": 1.0,
+      "T": 1.0,
+      "N": 1.0,
+      "I": 1.0,
+      "V": 1.0,
+      "OTHER": 1.0
+    }
+  },
+  "teacher_premium": {
+    "n": 60,
+    "macro_f1": 1.0,
+    "accuracy": 1.0,
+    "parse_fail": 0,
+    "per_axis_f1": {
+      "A": 1.0,
+      "T": 1.0,
+      "N": 1.0,
+      "I": 1.0,
+      "V": 1.0,
+      "OTHER": 1.0
+    }
+  }
+}

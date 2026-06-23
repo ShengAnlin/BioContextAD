@@ -1,33 +1,3 @@
-{"qid": "q01", "gold_axis": "A", "query": "A 68-year-old patient shows a plasma Aβ42/Aβ40 ratio of 0.052. What is the likely AD-relevant pathology indicated by this measurement?"}
-{"qid": "q02", "gold_axis": "A", "query": "Which biomarker is most directly measured by amyloid PET imaging in early Alzheimer's screening?"}
-{"qid": "q03", "gold_axis": "A", "query": "Discuss the role of cerebral Aβ plaque deposition in preclinical Alzheimer's disease."}
-{"qid": "q04", "gold_axis": "A", "query": "If plasma Aβ42 is reduced but CSF Aβ42 remains normal, what does this discordance suggest mechanistically?"}
-{"qid": "q05", "gold_axis": "A", "query": "Why does Aβ accumulation in the brain typically precede measurable cognitive decline by 10–20 years?"}
-{"qid": "q06", "gold_axis": "T", "query": "A patient has elevated plasma p-tau217. What does this suggest about underlying neuropathology?"}
-{"qid": "q07", "gold_axis": "T", "query": "Compare the diagnostic value of p-tau181, p-tau217 and p-tau231 in early AD screening."}
-{"qid": "q08", "gold_axis": "T", "query": "How do neurofibrillary tangles form, and what is their relationship to tau phosphorylation?"}
-{"qid": "q09", "gold_axis": "T", "query": "Why is tau PET considered a downstream marker compared to amyloid PET?"}
-{"qid": "q10", "gold_axis": "T", "query": "Explain the staging of tau pathology along Braak stages I–VI."}
-{"qid": "q11", "gold_axis": "N", "query": "A 72-year-old patient shows hippocampal atrophy on MRI with elevated plasma NfL. How should we interpret these findings?"}
-{"qid": "q12", "gold_axis": "N", "query": "What does an elevated serum neurofilament light chain indicate about brain pathology?"}
-{"qid": "q13", "gold_axis": "N", "query": "Describe the typical FDG-PET hypometabolism pattern observed in early Alzheimer's disease."}
-{"qid": "q14", "gold_axis": "N", "query": "How is hippocampal volume change tracked longitudinally in AD risk monitoring?"}
-{"qid": "q15", "gold_axis": "N", "query": "Discuss synaptic loss as an early neurodegenerative event preceding overt neuronal death."}
-{"qid": "q16", "gold_axis": "I", "query": "Plasma GFAP is elevated in a 65-year-old without cognitive symptoms. What pathological process is most likely involved?"}
-{"qid": "q17", "gold_axis": "I", "query": "Explain the role of microglial activation and TREM2 signaling in Alzheimer's disease progression."}
-{"qid": "q18", "gold_axis": "I", "query": "How do reactive astrocytes contribute to AD pathology and what biomarkers reflect their activity?"}
-{"qid": "q19", "gold_axis": "I", "query": "Discuss neuroinflammation as a therapeutic target in early AD intervention."}
-{"qid": "q20", "gold_axis": "I", "query": "What is the relationship between sTREM2 levels and microglial response in AD?"}
-{"qid": "q21", "gold_axis": "V", "query": "How does APOE ε4 genotype increase Alzheimer's risk through cerebrovascular and metabolic mechanisms?"}
-{"qid": "q22", "gold_axis": "V", "query": "Discuss the contribution of cerebral small vessel disease to mixed-etiology dementia."}
-{"qid": "q23", "gold_axis": "V", "query": "A patient has elevated homocysteine, HbA1c 7.2%, and mild cognitive complaints. How do vascular-metabolic factors compound AD risk?"}
-{"qid": "q24", "gold_axis": "V", "query": "Explain blood-brain barrier dysfunction as an early event in AD pathogenesis."}
-{"qid": "q25", "gold_axis": "V", "query": "How does cerebral hypoperfusion contribute to cognitive decline in at-risk individuals?"}
-{"qid": "q26", "gold_axis": "OTHER", "query": "What is the MMSE cut-off commonly used in clinical AD screening?"}
-{"qid": "q27", "gold_axis": "OTHER", "query": "How does educational attainment modify the trajectory of cognitive decline in AD?"}
-{"qid": "q28", "gold_axis": "OTHER", "query": "Recommend lifestyle modifications for someone with a family history of Alzheimer's disease."}
-{"qid": "q29", "gold_axis": "OTHER", "query": "What is the difference between Alzheimer's disease and frontotemporal dementia in clinical presentation?"}
-{"qid": "q30", "gold_axis": "OTHER", "query": "Summarize the global epidemiology of Alzheimer's disease in adults over 65."}
 {"qid": "q31", "gold_axis": "A", "query": "A patient's CSF panel shows mildly elevated p-tau181 but the clinician notes the Aβ42/Aβ40 ratio is in the abnormal range; which finding is the primary indicator under the ATN framework?", "case_type": "cross_axis", "rationale": "T biomarker mentioned but A is the asked subject under ATN"}
 {"qid": "q32", "gold_axis": "T", "query": "Despite normal hippocampal volume on MRI, this patient shows markedly elevated p-tau217. What does the tau pathology suggest about the disease stage?", "case_type": "cross_axis", "rationale": "N biomarker mentioned as background, T is the focus"}
 {"qid": "q33", "gold_axis": "N", "query": "A 70-year-old with normal CSF Aβ42 but progressive hippocampal atrophy on serial MRI; what neurodegenerative process is most consistent with the imaging finding?", "case_type": "cross_axis", "rationale": "A biomarker as red herring (normal), N is the focus"}
@@ -36,6 +6,7 @@
 {"qid": "q36", "gold_axis": "T", "query": "Among p-tau181, p-tau217, NfL, and GFAP, which biomarker most directly reflects neurofibrillary tangle burden?", "case_type": "cross_axis", "rationale": "Multi-biomarker listing across axes; T is correct"}
 {"qid": "q37", "gold_axis": "A", "query": "A patient has elevated plasma NfL, normal p-tau, and reduced CSF Aβ42/Aβ40. Which axis is preferentially abnormal here in the AD-defining sense?", "case_type": "cross_axis", "rationale": "T and N as foils; only A is preferentially abnormal in AD-defining biomarker"}
 {"qid": "q38", "gold_axis": "I", "query": "When microglia and reactive astrocytes co-localize around amyloid plaques in postmortem AD brain, which axis does this pattern primarily represent?", "case_type": "cross_axis", "rationale": "A mentioned but I is the pattern"}
+
 {"qid": "q39", "gold_axis": "N", "query": "Patient's blood test shows elevated NfL after a recent fall. Does this finding still inform AD risk assessment, and through which axis?", "case_type": "abbrev_trap", "rationale": "NfL in trauma context still maps to N"}
 {"qid": "q40", "gold_axis": "I", "query": "A research paper reports increased CRP, IL-6, and YKL-40 in early MCI patients without overt cognitive symptoms. What axis is being characterized?", "case_type": "abbrev_trap", "rationale": "Multiple inflammatory markers, axis I"}
 {"qid": "q41", "gold_axis": "V", "query": "Discuss the implications of finding high HbA1c, elevated homocysteine, and prior stroke history in a 65-year-old presenting with cognitive complaints.", "case_type": "abbrev_trap", "rationale": "HbA1c + homocysteine + stroke = V"}
@@ -43,6 +14,7 @@
 {"qid": "q43", "gold_axis": "I", "query": "TREM2 R47H variant carriers show altered microglial phagocytic function. What axis does this genetic-functional link characterize?", "case_type": "abbrev_trap", "rationale": "TREM2 in microglia context = I"}
 {"qid": "q44", "gold_axis": "N", "query": "FDG-PET in the precuneus and posterior cingulate cortex is reduced in this patient. What axis does this metabolic imaging finding reflect?", "case_type": "abbrev_trap", "rationale": "FDG-PET = neurodegeneration marker, axis N (per ATN); not metabolic-V despite the word 'metabolic'"}
 {"qid": "q45", "gold_axis": "V", "query": "BBB permeability measured by DCE-MRI is increased in APOE ε4 carriers before any cognitive decline. Which axis is implicated?", "case_type": "abbrev_trap", "rationale": "BBB + APOE = V"}
+
 {"qid": "q46", "gold_axis": "N", "query": "Serial brain imaging over 3 years shows progressive shrinkage of the medial temporal lobe. What pathological process does this longitudinal change reflect?", "case_type": "metaphor", "rationale": "'shrinkage' = atrophy = N, no explicit biomarker name"}
 {"qid": "q47", "gold_axis": "A", "query": "Postmortem analysis reveals dense, congophilic, β-pleated sheet deposits in the cerebral cortex of this AD patient. What axis is being described?", "case_type": "metaphor", "rationale": "Description of amyloid plaque without saying 'amyloid'"}
 {"qid": "q48", "gold_axis": "T", "query": "Electron microscopy of cortical neurons shows paired helical filaments accumulating in the cell body and dendrites. Which axis does this ultrastructural finding represent?", "case_type": "metaphor", "rationale": "PHF = tau, axis T"}
@@ -51,6 +23,7 @@
 {"qid": "q51", "gold_axis": "N", "query": "A patient's brain on autopsy weighs 1050 grams (normal age-adjusted: 1250 g) with conspicuous widening of the sulci. What axis does this gross finding represent?", "case_type": "metaphor", "rationale": "Brain atrophy gross description, axis N"}
 {"qid": "q52", "gold_axis": "A", "query": "PiB-PET imaging in this 65-year-old cognitively normal adult shows widespread cortical retention. What axis is being assessed?", "case_type": "metaphor", "rationale": "PiB is amyloid PET tracer; less common name than 'amyloid PET'"}
 {"qid": "q53", "gold_axis": "I", "query": "CSF analysis in this preclinical case shows elevated chitinase-3-like protein 1 alongside normal Aβ. What does the CSF profile suggest about the innate immune axis?", "case_type": "metaphor", "rationale": "Chitinase-3-like protein 1 = YKL-40 full name; I axis"}
+
 {"qid": "q54", "gold_axis": "A", "query": "Mrs. K, 71, retired teacher with 14 years of education, came to memory clinic complaining of forgetting recent conversations. Her son drove her, she has hypertension on amlodipine and mild osteoarthritis. Plasma assay returned Aβ42/Aβ40 ratio of 0.045. MoCA was 24/30. Family history is unremarkable. Which biomarker axis is positive in this work-up?", "case_type": "clinical_noise", "rationale": "Heavy noise (occupation, education, comorbidities, family), real signal is Aβ42/Aβ40"}
 {"qid": "q55", "gold_axis": "T", "query": "Mr. L, 68, presents for follow-up after his daughter noticed word-finding difficulty over 18 months. He plays tennis weekly, no smoking history, BMI 24. Routine labs unremarkable except plasma p-tau217 at 0.78 pg/mL (cutoff 0.40). Brain MRI shows mild generalized volume loss. What is the most informative AD biomarker axis here?", "case_type": "clinical_noise", "rationale": "Multi-axis findings (T abnormal, N mildly abnormal); T is the most informative"}
 {"qid": "q56", "gold_axis": "V", "query": "Ms. M, 64, type 2 diabetes for 12 years, HbA1c 8.1%, current smoker, presents with subjective memory complaints. APOE ε3/ε4. BP 158/94. Cognitive testing within normal limits. Plasma p-tau and Aβ markers are normal. What axis dominates her AD risk profile?", "case_type": "clinical_noise", "rationale": "A, T normal; V dominates via T2DM + smoking + HTN + APOE"}

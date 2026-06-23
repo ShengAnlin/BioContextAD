@@ -1,0 +1,27 @@
+{
+  "n_pairs": 30,
+  "fleiss_kappa": 0.7876,
+  "per_role_label_counts": {
+    "router_fast": {
+      "SUPPORT": 9,
+      "REFUTE": 15,
+      "UNCERTAIN": 4
+    },
+    "teacher_medical": {
+      "SUPPORT": 15,
+      "REFUTE": 14,
+      "UNCERTAIN": 1
+    },
+    "teacher_premium": {
+      "SUPPORT": 13,
+      "REFUTE": 16,
+      "UNCERTAIN": 1
+    }
+  },
+  "majority_distribution": {
+    "SUPPORT": 13,
+    "REFUTE": 15,
+    "UNCERTAIN": 1,
+    "TIE": 1
+  }
+}

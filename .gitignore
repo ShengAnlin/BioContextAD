@@ -35,3 +35,6 @@ Thumbs.db
 .vscode/
 .idea/
 *.swp
+
+# operational scratch (commit message templates etc.)
+_meta/
