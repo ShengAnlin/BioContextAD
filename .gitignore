@@ -38,3 +38,8 @@ Thumbs.db
 
 # operational scratch (commit message templates etc.)
 _meta/
+
+# operational scratch — not part of the published repo
+_backup_*/
+results/raw_backup_*/
+results/cache_clean_report_*.txt
